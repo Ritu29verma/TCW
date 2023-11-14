@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.d-flex
+{
+    background-color: black;
+}
+
+.container
+{
+    background-color: black;
+    padding-top: 200px;
+    padding-left: 430px;
+}
+.card-body
+{
+    background-color: rgb(72, 72, 72);
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0px;
+    color: honeydew;
+    overflow-wrap: break-word;
+    background-color: rgb(0 0 0);
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+.card-body
+{
+    display: flex;
+    justify-content: center;
+}
+.resultValueSection
+{
+    display: flex;
+}
